@@ -1,0 +1,199 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.headerleft{
+    float: left;
+    padding: 0;
+}
+
+.headerright{
+    float: right;
+    margin-right: 20px;
+}
+
+.first::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-flex;
+}
+
+ul a{
+    color: #5f6368;
+    text-decoration: none;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    font-size: 13px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+.square{
+    opacity: 0.5;
+    vertical-align:middle;
+}
+
+
+.square:hover{
+    opacity: 1;
+}
+
+.click{
+    color: white;
+    background-color: #4285f4;
+    padding: 7px 14px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bolder;
+}
+
+.google{
+    width: 272px;
+    height: 92px;
+    display: block;
+    margin: 100px auto;
+}
+
+.searchbar{
+  width: 590px;
+  height: 45px;
+  margin: 28px auto;
+  border: 0.8px solid rgb(220, 218, 218);
+  border-radius: 24px;
+  position: relative;
+  bottom: 70px;
+}
+
+.searchbar:hover {
+    box-shadow: 0 0 10px rgb(220, 218, 218);
+}
+
+.search{
+   
+    border: none;
+    width: 450px;
+    height: 30px;
+    outline: none;
+  position: absolute;
+  left: 42px;
+  top: 7px;
+
+}
+
+.quest{
+    width: 26px; 
+    position:absolute;
+    width: 25px;
+    left: 10px;
+    top: 9px;
+   
+}
+
+.rush{
+    vertical-align: sub;
+    cursor: pointer;
+    cursor: auto;
+    position:absolute;
+    right: 60px;
+    top: 16px;
+}
+
+.microphone{
+    width: 14px;
+    vertical-align: sub;
+    position: absolute;
+    right: 22px;
+    top: 12px;
+}
+
+.btnfirst,.btnsecond{
+    padding: 12px 10px;
+    background-color: #f5f5f5;
+    color: #606367;
+    border-radius: 4px;
+    position: relative;
+    left: 44%;
+    bottom: 70px;
+    margin-right: 3px;
+    min-width: 120px;
+    border: 0.8px solid #f5f5f5;
+}
+
+.btnfirst:hover,.btnsecond:hover{
+    color: #222222;
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    cursor: pointer;
+}
+
+.other{
+    text-align: center;
+    left: 11px;
+    font-size: 13px;
+    position: relative;
+    bottom: 44px;
+}
+
+.other a{
+    text-decoration: none;
+    color:#1967d2;;
+}
+
+#last{
+    width: 100%;
+    background-color:#f5f5f5;
+    font-size: 14px;
+    position: fixed;
+    line-height: 40px;
+    bottom:0;
+   height: 90px;
+    
+}
+
+.solo-p{
+    border-bottom: 1px solid #e4e4e4;
+    padding-left: 30px;
+    color: #5f6368;
+    margin-bottom: -1px;
+
+ 
+  
+}
+
+.left-f{
+    float: left;
+    margin: 0px;
+    margin-left:-20px;
+ 
+}
+
+.right-f{
+    float: right;
+  margin: 0 12px 0 0;
+  
+    
+}
+
+
+
+
+
+
